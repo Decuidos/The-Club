@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palabras 🚫 | The Club</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <h1>The Club</h1>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="reglas.html">Reglas</a></li>
+            <li><a href="palabras.html" class="active">Palabras 🚫</a></li>
+            <li><a href="tienda.html">Tienda</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h2>🚫 Palabras No Permitidas</h2>
+        <p>Listado de palabras bloqueadas y no permitidas en la comunidad. Recuerden siempre respetar el reglamento para mantener una sana convivencia.</p>
+    </section>
+
+    <section class="search-container">
+        <div class="search-box">
+            <input type="text" id="wordSearch" placeholder="Escribe para buscar una palabra..." onkeyup="filterWords()">
+        </div>
+    </section>
+
+    <section class="palabras-container" id="wordsContainer">
+        </section> 
+
+    <div class="cards-footer-text">
+        <p>ESTE LISTADO SE ACTUALIZA CONSTANTEMENTE Y ES BUENO REVISAR DE VEZ EN CUANDO.</p>
+    </div>
+
+    <footer>
+        © 2025 - mr_blood_thirsty
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
